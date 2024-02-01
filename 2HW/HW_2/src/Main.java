@@ -14,6 +14,14 @@ public class Main {
         System.out.println(r);
         System.out.println(d);
         System.out.println(n);
+        if (a % 2 == 0) {
+            System.out.println("a = " + a + "четное");
+        }
+        if (b % 2 == 0) {
+            System.out.println("b = " + b + "четное");
+        } else {
+            System.out.println("a и b нечетные");
+        }
 
     }
 }
