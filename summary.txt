@@ -23,7 +23,14 @@
 \b - Символ возврата в тексте на один шаг назад или удаление одного символа в строке (backspace);
 
 
-main - создает Public class main {}
+main - создает Public class main {} или psvm
 sout - создает System.out.println;
 
 % - остаток от деления;
+
+Для ввода в консоль значений подключаем:
+import java.util.Scanner;
+Создаем экземпляр класса
+Scanner console = new Scanner(System.in);
+И присваеваем переменной следующий ввод
+int a = console.nextInt();
