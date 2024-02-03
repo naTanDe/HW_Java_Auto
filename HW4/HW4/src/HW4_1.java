@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class HW4 {
+public class HW4_1 {
     public static void main(String[] args) {
 
         System.out.println("Введи первое значение");
@@ -18,11 +18,16 @@ public class HW4 {
             System.out.println((int) Math.pow(5, j));
         }
 
+        System.out.println();
+
         for (int k = 40; k <= 60; k++) {
             if (k % 4 == 0) {
                 System.out.println(k);
             }
         }
+
+        System.out.println();
+
         for (int k = 40; k <= 60; k = k + 4) {
             System.out.println(k);
         }
