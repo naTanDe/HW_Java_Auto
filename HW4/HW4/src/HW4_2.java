@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class HW4_2 {
     public static void main(String[] args) {
@@ -32,6 +33,27 @@ public class HW4_2 {
         for (int k = 0; k < array_3.length; k++) {
             array_3[k] = array_3[k] + 15;
             }
-        System.out.println(Arrays.toString(array_3));
+        System.out.println(Arrays.toString(array_3) + "\n ");
+
+//        Практика
+        
+        int[] array_4 = new int [3];
+        Scanner console_1 = new Scanner(System.in);
+        System.out.println("Год рождения 1 члена семьи");
+        array_4[0] = console_1.nextInt();
+        System.out.println("Год рождения 2 члена семьи");
+        array_4[1] = console_1.nextInt();
+        System.out.println("Год рождения 3 члена семьи");
+        array_4[2] = console_1.nextInt();
+        for (int m = 0; m < array_4.length; m++) {
+            array_4[m] = 2024 - array_4[m];
+        }
+        System.out.println(Arrays.toString(array_4));
+
+        int[] array_5 = new int[100];
+        for (int n = 0; n < array_5.length; n++) {
+            array_5[n] = n + 1;
+        }
+        System.out.println(Arrays.toString(array_5));
     }
 }
