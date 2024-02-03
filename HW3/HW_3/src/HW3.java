@@ -19,7 +19,7 @@ public class HW3 {
         }  else {
             System.out.println("1. a > b");
             }
-        } if (((a + b) % 2) == 0) {
+        } if ((a + b) % 2 == 0) {
             System.out.println("2. а и б скорее всего четные");
         } else {
             System.out.println("2. какая то пересменная не четная");
@@ -27,14 +27,18 @@ public class HW3 {
 
         if (a > 10 || b > 10 ) {
             System.out.println("3. a или b больше 10");
-        } if (a < 100 || b < 100) {
+        }
+        if (a < 100 || b < 100) {
             System.out.println("4. a или b меньше 100");
-        } if ((a / 2) > 20 ) {
+        }
+        if ((a * 1.0 / 2) > 20 ) {
             System.out.println("5. Результат деления а на 2 больше 20");
-        } if ((b / 2) > 20 ) {
+        }
+        if ((b * 1.0 / 2) > 20 ) {
             System.out.println("5. Результат деления b на 2 больше 20");
 
-        } if (a >= 5 & a <= 40) {
+        }
+        if (a >= 5 & a <= 40) {
             System.out.println("6. значение переменной a между 5 и 40 включительно");
         } else {
             System.out.println("6. значение переменной a меньше 5 или больше 40");
