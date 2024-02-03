@@ -7,7 +7,7 @@ public class Main {
         int s = a + b;
         int u = a * b;
         int r = a - b;
-        int d = a / b;
+        double d = 1.0 * a / b;
         int n = a % b;
         System.out.println(s);
         System.out.println(u);
