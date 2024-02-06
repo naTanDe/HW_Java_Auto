@@ -58,3 +58,5 @@ do {
 
 int[] arr = {1, 2, 3}
 Arrays.toString(arr) - конвертация в строку
+
+
