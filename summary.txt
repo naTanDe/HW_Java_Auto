@@ -1,6 +1,7 @@
 Переменная - поименованная область памяти;
 
 Примитивные тиаы данных.
+
 Целочисленные:
   Byte   – от -128 до 127. Размер – 8 бит памяти;
   Short  – от -32768 до 32767. Размер - 16 бит;
@@ -13,6 +14,7 @@
   boolean - false/true. Размер - 8 бит;
   char - символ в кодировке unicode. Размер - 16 бит;
 
+Экранирование и символы:
 \ddd - Восьмиричный символ (ddd);
 \uxxxx - Шестнадцатеричный символ Юникода (хххх);
 \n - Новая строка;
@@ -25,30 +27,36 @@
 
 main - создает Public class main {} или psvm
 sout - создает System.out.println;
+Alt+Enter вызов констектного меню
 
 % - остаток от деления;
 
+import java.util.Arrays - для работы с массивами в коде.
+
 Для ввода в консоль значений подключаем:
+
 import java.util.Scanner;
 Создаем экземпляр класса
 Scanner console = new Scanner(System.in);
 И присваеваем переменной следующий ввод
 int a = console.nextInt();
 
-Код из урока:
+Циклы:
 
-    public static void main(String[] args) {
-        System.out.println("Does it move?(true/not true)");
-        Scanner console_1 = new Scanner(System.in);
-        boolean it_1 = console_1.hasNextBoolean();
-        System.out.println("Should it?(true/not true)");
-        Scanner console_2 = new Scanner(System.in);
-        boolean it_2 = console_2.hasNextBoolean();
-        if (it_1 == true && it_2 == false) {
-            System.out.println("take skotch!");
-        } else if (it_1 == false && it_2 == true) {
-            System.out.println("take wd-40");
-            } else {
-                System.out.println("No problem");
-            }
-   }
+for (int = 0; i < 4; i++) {
+}
+1 - Обьявление переменной
+2 - Проверка условия и выполнение блока кода
+3 - инкремент (приращение согласно условиям)
+
+while (i < 4) цикл с предусловиями (сначало проверяем, потом выполняем блок кода)
+
+do {
+} while ( i < 4) цикл с постусловиями (сначало выполняем блок кода, потом проверяем, 1 раз точно цикл исполнится)
+
+Массивы:
+
+int[] arr = {1, 2, 3}
+Arrays.toString(arr) - конвертация в строку
+
+
