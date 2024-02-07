@@ -9,7 +9,7 @@ public class HW4_2 {
 //        необходимо вывести все нечетные числа из массива.
         int[] array_1 = {9, 2, 6, 4, 5, 12, 7, 8, 6};
         for (int i = 0; i < array_1.length; i++) {
-            if (array_1[i] % 2 == 0) {
+            if (array_1[i] % 2 != 0) {
                 System.out.print(array_1[i] + " ");
             }
         }
