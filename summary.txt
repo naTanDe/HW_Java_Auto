@@ -59,4 +59,9 @@ do {
 int[] arr = {1, 2, 3}
 Arrays.toString(arr) - конвертация в строку
 
+int max = Integer.MIN_VALUE; - Присвоение инимальных и максимальных значения integer
+int min = Integer.MAX_VALUE;
+
+j = j + array_4[i] иная запись j += array_4[i]
+
 
