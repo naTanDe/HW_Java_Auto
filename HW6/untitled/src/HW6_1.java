@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class HW6_1 {
     public static void main(String[] args) {
 
@@ -64,6 +66,7 @@ public class HW6_1 {
             }
         }
 
+        System.out.println("Задача №4");
 
 //        Экстра задача
 //
@@ -71,6 +74,9 @@ public class HW6_1 {
 //        String[][] array = {{“Привет”, “всем”, “кто”}, {“изучает”, “язык”, “программирования”}, {“java”}};
 //        необходимо подсчитать количество строк в массиве, которые не содержат буквы “е”.
 
+        String[][] array = {{"Привет", "всем", "кто"}, {"изучает", "язык", "программирования"}, {"java"}};
+        String convert = Arrays.deepToString(array);
+        
 
     }
 }
