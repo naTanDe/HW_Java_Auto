@@ -26,16 +26,31 @@ public class HW5_2 {
 
         System.out.println("Задача №2");
 
-        for (int i = 0; i <  )
+        for (int i = 9; i >= 0; i--) {
+            for (int j = 9; j > i; j-- ) {
+                System.out.print("  ");
+            }
+                for (int k = 0; k <= i; k++) {
 
-                // Обраный счет
-
-        /*for (int i = 0; i <= 9; i++) {
-            for (int j = 9; j >= i; j--) {
-                System.out.print(j - i  + " ");
+                    System.out.print(k + " ");
             }
             System.out.println();
-        }*/
-
             }
+
+        System.out.println("Задача №3");
+
+        for (int i = 9; i >= 0; i--) {
+            for (int j = 9; j > i; j--) {
+                System.out.print("  ");
+            }
+                for (int k = i; k >= 0; k--) {
+                    System.out.print(k + " ");
+            }
+                for (int l = 1; l <= i; l++) {
+                    System.out.print(l + " ");
+                }
+            System.out.println();
         }
+    }
+}
+
